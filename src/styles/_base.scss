@@ -21,8 +21,23 @@
   }
 }
 
-
-body, html {
+body, html, .app {
   margin: 0;
   padding: 0;
+}
+
+body {
+  user-select: none;
+}
+
+.bg-icon {
+  font-size: $big-icon;
+}
+
+.sm-icon {
+  font-size: $small-icon;
+}
+
+* {
+  scrollbar-width: none;
 }

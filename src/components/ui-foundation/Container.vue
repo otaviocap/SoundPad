@@ -9,11 +9,16 @@
 </script>
 
 <style lang="scss">
-	@import "@styles/variables.scss";
-
 	.container {
 		background-color: $base-tone;
 		width: 100vw;
 		height: 100vh;
+		position: fixed;
+
+		display: grid;
+		grid-template-areas: 
+			'middle middle middle right right'
+			'middle middle middle right right'
+			'middle middle middle right right';
 	}
 </style>

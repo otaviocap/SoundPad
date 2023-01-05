@@ -1,5 +1,5 @@
 {
-  "name": "SoundPad",
+  "name": "sound-pad",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
-    "icon-packs": "^0.10.0",
+    "remixicon": "^2.5.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {

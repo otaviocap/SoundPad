@@ -10,6 +10,14 @@ export default defineConfig({
     }
   },
 
+  css: { 
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@styles/variables.scss";`
+      }
+    }
+  },
+
   plugins: [vue()],
 
   // Vite options tailored for Tauri development and only applied in `tauri dev` or `tauri build`
